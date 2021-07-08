@@ -18,17 +18,18 @@ ref: v1.1.0
 nav:
 - label: About
   icon: info
+  action: load-page
   path: /about
 - label: Contact Us
   icon: envelope
-  path: "/contact-us"
+  action: "contact-us"
 
 # If the /contact-us path is defined for the nav menu a contact form will be enabled
 # The following information is used in the display and processing of the contact form.
 contactForm:
   toEmail:
   - ron.snyder@ithaka.org
-  - carolyn.oulton@canterbury.ac.uk
+  # - carolyn.oulton@canterbury.ac.uk
   subject: Kent Digital Map Contact
 
 #######################################################
